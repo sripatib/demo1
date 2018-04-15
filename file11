@@ -1,1 +1,1 @@
- in `cat /etc/passwd` ; do echo $i | awk -F ":" '{print $1}' ;done
+cat /etc/passwd |  awk -F ":" '{print $1}'

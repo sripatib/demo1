@@ -1,2 +1,2 @@
 #cat /etc/shadow |  awk -F ":" '{print $1}'
-for i in `cat /etc/shadow` | echo $i
+for i in `cat /etc/shadow`; do  echo $i ;done

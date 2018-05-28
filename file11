@@ -1,3 +1,2 @@
 cat /etc/passwd > test
 for i in `cat test`; do  echo $i ;done
-ls -l

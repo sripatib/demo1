@@ -2,3 +2,4 @@ cat /etc/passwd > test
 for i in `cat test`; do  echo $i ;done
 #1234567
 #12345t
+#tyui
